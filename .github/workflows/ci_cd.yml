@@ -25,7 +25,6 @@ jobs:
   windows-doc-build:
     name: "Windows Doc build"
     runs-on: windows-latest
-    needs: doc-style
     steps:
       - name: "Build documentation"
         uses: SMoraisAnsys/actions/_windows_doc-build@refact/doc-build
